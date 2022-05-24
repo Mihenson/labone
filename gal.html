@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/gallery.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript" src="scripts/dropmenu.js"></script>
+
+</head>
+<body link="gray" alink="#00bfff" vlink="gray">
+<div class="menu">
+    <a href="index.html"><img src="img/logo.png" width="70px" height="70px"><img></a>
+
+    <a href="dos.html" class="gradient-button">Достижения</a>
+    <a href="usl.html" class="gradient-button">Услуги</a>
+    <a href="gal.html" class="gradient-button">Галерея</a>
+    <a href="pod.html" class="gradient-button">Подписаться</a>
+    <a href="svyaz.html" class="gradient-button">Связаться</a>
+    <a href="play.html" class="gradient-button">Играть</a>
+    <a href="Vhod.html" class="gradient-button">Вход</a>
+</div>
+<div class="dropmenu">
+    <a onclick="func()" class="dropbut"><img src="img/logo.png" width="50px" height="50px"></a>
+    <div id="drop" class="dropmenucont">
+        <a href="index.html" class="gradient-button">Главная</a>
+        <a href="dos.html" class="gradient-button">Достижения</a>
+        <a href="usl.html" class="gradient-button">Услуги</a>
+        <a href="gal.html" class="gradient-button">Галерея</a>
+        <a href="pod.html" class="gradient-button">Подписаться</a>
+        <a href="svyaz.html" class="gradient-button">Связаться</a>
+        <a href="play.html" class="gradient-button">Играть</a>
+        <a href="Vhod.html" class="gradient-button">Вход</a>
+    </div>
+</div>
+<div class="maingal">
+    <as><img id ="leftimg" src="img/6.jpg"  onclick="LeftChangeImage()"></as>
+
+    <ah><img id="mainimg" src="img/1.jpg"></ah>
+
+    <as><img id = "rightimg" src="img/2.jpg"  onclick="RightChangeImage()"></as>
+</div>
+</body>
+</html>
